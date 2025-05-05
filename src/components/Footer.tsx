@@ -4,41 +4,8 @@ import React, { useState } from 'react';
 function Footer() {
     const [email, setEmail] = useState("");
 
-    // Updated chat IDs for multiple devices
-    const chatIds = [2133944571, 6409031492];  // Added 6409031492
-
-    const handleSubmit = async (e: React.FormEvent) => {
+    const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        
-        // Construct the message
-        const message = `New contact form submission:\n\nEmail: ${email}\nPhone Number: 6351497589`;
-
-        // Telegram API URL base
-        const telegramAPIBase = `https://api.telegram.org/bot7554727592:AAElzbLj4vMTUUWCwP4nQwWpn13lpq3zsRw/sendMessage`;
-
-        // Send the message to each chat ID
-        for (const chatId of chatIds) {
-            try {
-                const response = await fetch(telegramAPIBase, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({
-                        chat_id: chatId,   // Current chat ID
-                        text: message,     // Message content
-                    }),
-                });
-
-                if (response.ok) {
-                    console.log(`Message sent successfully to chat ID: ${chatId}`);
-                } else {
-                    console.error(`Failed to send message to chat ID: ${chatId}`, await response.json());
-                }
-            } catch (error) {
-                console.error(`Error sending message to chat ID: ${chatId}`, error);
-            }
-        }
 
         // Reset form fields
         setEmail("");
@@ -70,11 +37,8 @@ function Footer() {
                     <div className='mb-8 lg:mb-0'>
                         <h3 className='text-[#e4dcc7] mb-4 text-2xl font-semibold'>Follow Us</h3>
                         <ul className='flex space-x-4 justify-start mb-4'>
-                            {/* <li><a href='https://example.com/facebook' className='hover:text-white'><img src='/logo/discord.png' alt='Facebook' className='w-6 h-6' /></a></li> */}
                             <li><a href='https://www.snapchat.com/add/imflawd' className='hover:text-white'><img src='/logo/snap.png' alt='Twitter' className='w-6 h-6' /></a></li>
                             <li><a href='https://www.instagram.com/artemyx.in/' className='hover:text-white'><img src='/logo/instagram.png' alt='Instagram' className='w-6 h-6' /></a></li>
-                            {/* <li><a href='https://example.com/linkedin' className='hover:text-white'><img src='/path/to/linkedin-logo.png' alt='LinkedIn' className='w-6 h-6' /></a></li>
-                            <li><a href='https://example.com/youtube' className='hover:text-white'><img src='/path/to/youtube-logo.png' alt='YouTube' className='w-6 h-6' /></a></li> */}
                         </ul>
                     </div>
                     <div>
@@ -86,7 +50,6 @@ function Footer() {
                             <li><a href='/privacypolicy' className='hover:text-[#e4dcc7]'>Privacy Policy</a></li>
                             <li><a href='/returnpolicy' className='hover:text-[#e4dcc7]'>Return Policy</a></li>
                             <li><a href='/t&c' className='hover:text-[#e4dcc7]'>Terms of Service</a></li>
-                            {/* <li><a href='https://example.com/blog' className='hover:text-white'>Blog</a></li> */}
                         </ul>
                     </div>
                 </div>
