@@ -56,11 +56,14 @@ const CheckoutPage: React.FC = () => {
       } else if (dataSource === 'product_details') {
         const { default: data } = await import('@/data/product_details.json');
         setProductDetails(data);
-      }else if (dataSource === 'RIM689') {
+      } else if (dataSource === 'RIM689') {
         const { default: data } = await import('@/data/influence/RIM689.json');
         setProductDetails(data);
-      }else if (dataSource === 'SAL100') {
+      } else if (dataSource === 'SAL100') {
         const { default: data } = await import('@/data/influence/SAL100.json');
+        setProductDetails(data);
+      } else if (dataSource === 'MSK100') {
+        const { default: data } = await import('@/data/influence/MSK100.json');
         setProductDetails(data);
       }
     };

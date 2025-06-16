@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "MSK100 AR SweatShirt",
+            "description": "Experience the MSK100 AR SweatShirt with unique AR designs!",
+            "link": "",
+            "thumbnail": "/silhouette/png/sweatshirt.png",
+            "buylink": "",
+            "secondaryImage": "/influensours/MSK100/11.png",
+            "price": 1500
+        },
+        {
+            "id": 2,
+            "name": "MSK100 AR Crewneck",
+            "description": "Enjoy the MSK100 AR Crewneck with magical AR-enabled designs.",
+            "link": "",
+            "thumbnail": "/silhouette/png/crewneck.png",
+            "buylink": "",
+            "secondaryImage": "/influensours/MSK100/12.png",
+            "price": 1000
+        },
+        {
+            "id": 3,
+            "name": "MSK100 AR Hoodie",
+            "description": "Step into the world of MSK100 with this AR Hoodie!",
+            "link": "",
+            "thumbnail": "/silhouette/png/hoodie.png",
+            "buylink": "",
+            "secondaryImage": "/influensours/MSK100/13.png",
+            "price": 1750
+        },
+        {
+            "id": 4,
+            "name": "MSK100 AR Crop Top",
+            "description": "Add a spark to your wardrobe with the MSK100 AR Crop Top.",
+            "link": "",
+            "thumbnail": "/silhouette/png/crop-top-1.png",
+            "buylink": "",
+            "secondaryImage": "/influensours/MSK100/14.png",
+            "price": 1000
+        },
+        {
+            "id": 5,
+            "name": "MSK100 AR Tee Oversized",
+            "description": "Bring your favorite MSK100 moments to life with this AR Tee.",
+            "link": "",
+            "thumbnail": "/silhouette/png/ov.png",
+            "buylink": "",
+            "secondaryImage": "/influensours/MSK100/15.png",
+            "price": 1249
+        }
+    ]
+} 
