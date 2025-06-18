@@ -7,7 +7,7 @@
             "link": "",
             "thumbnail": "/silhouette/png/sweatshirt.png",
             "buylink": "",
-            "secondaryImage": "/influensours/MSK100/11.png",
+            "secondaryImage": "/influensours/MSK100/sweatshirt.png",
             "price": 1500
         },
         {
@@ -17,18 +17,8 @@
             "link": "",
             "thumbnail": "/silhouette/png/crewneck.png",
             "buylink": "",
-            "secondaryImage": "/influensours/MSK100/12.png",
+            "secondaryImage": "/influensours/MSK100/Crewneck.png",
             "price": 1000
-        },
-        {
-            "id": 3,
-            "name": "MSK100 AR Hoodie",
-            "description": "Step into the world of MSK100 with this AR Hoodie!",
-            "link": "",
-            "thumbnail": "/silhouette/png/hoodie.png",
-            "buylink": "",
-            "secondaryImage": "/influensours/MSK100/13.png",
-            "price": 1750
         },
         {
             "id": 4,
@@ -37,7 +27,7 @@
             "link": "",
             "thumbnail": "/silhouette/png/crop-top-1.png",
             "buylink": "",
-            "secondaryImage": "/influensours/MSK100/14.png",
+            "secondaryImage": "/influensours/MSK100/croptop.png",
             "price": 1000
         },
         {
@@ -47,7 +37,7 @@
             "link": "",
             "thumbnail": "/silhouette/png/ov.png",
             "buylink": "",
-            "secondaryImage": "/influensours/MSK100/15.png",
+            "secondaryImage": "/influensours/MSK100/oversized.png",
             "price": 1249
         }
     ]
