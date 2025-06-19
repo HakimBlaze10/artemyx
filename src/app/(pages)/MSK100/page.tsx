@@ -101,7 +101,7 @@ const ThreeDCardDemo: React.FC = () => {
                     <br></br>
                     <br></br>
                     I&apos;ve always been interested in cars—especially Porsche. They truly amaze me. 
-                    When I saw that Artemyx is offering AI tools to help creators express themselves, 
+                    When I saw that Artemyx is offering AR filters to help creators express themselves, 
                     I thought it was the perfect way to build something that shows what I love.
                     This project represents my style, my interests, and maybe even my future dream car!
                   </CardItem>
