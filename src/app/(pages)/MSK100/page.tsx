@@ -97,13 +97,13 @@ const ThreeDCardDemo: React.FC = () => {
                     translateZ={20}
                     className="rounded-xl text-xs font-normal dark:text-[#e4dcc7]"
                   >
-                    Hi, I'm Muskaan from Ahmedabad. I love making reels, trying out fashion, and doing makeup. 
+                    Hi, I&apos;m Muskaan from Ahmedabad. I love making reels, trying out fashion, and doing makeup. 
                     <br></br>
                     <br></br>
-                    I've always been interested in cars—especially Porsche. They truly amaze me. 
-                    When I saw that Artemyx is offering AI tools to help creators express themselves, 
+                    I&apos;ve always been interested in cars—especially Porsche. They truly amaze me. 
+                    When I saw that Artemyx is offering AR filters to help creators express themselves, 
                     I thought it was the perfect way to build something that shows what I love.
-                    This project represents my style, my interests, and maybe even my future dream car!
+                    This project represents my style, my interests, and maybe even my future dream car.
                   </CardItem>
                   <br />
                   <CardItem
